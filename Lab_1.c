@@ -6,7 +6,7 @@ int main()
     char c;
 
     printf ("$ tconvert");
-    scanf_s ("%f", &t);
+    scanf ("%f", &t);
     while (getchar() != '\n') c = getchar();
 
     switch (c) {
